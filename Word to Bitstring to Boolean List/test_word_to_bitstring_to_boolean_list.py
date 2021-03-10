@@ -22,4 +22,4 @@ class Test(TestCase):
             [False, True, False, False, True, True, True, False, True],
             [True, False, True, False, True, True]
         ]
-        for i, x in enumerate(actual_param): self.assertEquals(to_boolean_list(x), expected_param[i])
+        for i, x in enumerate(actual_param): self.assertEqual(to_boolean_list(x), expected_param[i])
